@@ -59,7 +59,7 @@ fun BirthdayGreetingWithName(name : String , from : String) {
 
         Text(text = "from $from",
             fontSize = 24.sp,
-            modifier = Modifier.wrapContentWidth(align = Alignment.End)
+            modifier = Modifier.fillMaxWidth().wrapContentWidth(align = Alignment.End).padding(end = 16.dp)
         )
     }
 
